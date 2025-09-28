@@ -2,6 +2,12 @@
 
 This is a place for you to start building your personality quiz!
 
+## About
+- GWC SPP 2023 Web Design Course
+- Uses html, css, and javascript to create a personality quiz
+- User will click their favorite foods in their respective categories, and the quiz will use the results to guess the user's favorite season
+
+## Instructions
 ### Project Requirements
 Your project should:
 - Have at least three questions.
