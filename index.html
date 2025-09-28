@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Personality Quiz - Favorite Season</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Pick your food, and we'll guess your favorite season! 🌳</h1>
+		<p>Please click on the image to submit your answer. If you choose an answer you don't like, you'll have to restart the quiz :D</p>
+	</header>
+
+	<main>
+
+    <button class="restart">Restart?</button>
+		<h2>Pick a beverage 🧃</h2>
+		<div class="question">
+
+      <!-- I chose to make the images clickable instead, since there's more space to click -->
+			<div class="answer-choice">
+				<button id="q1a1"><img src="assets/beverages/smoothie.jpg" alt="Two glass jars of pink smoothies on top wooden chopping boards with berries surrounding it."><p>Smoothie</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q1a2"><img src="assets/beverages/apple_cider.jpg" alt="A glass jar of orangish-borwn apple cider."><p>Apple Cider</p></button>
+      </div>
+
+      
+      <div class="answer-choice">
+        <button id="q1a3"><img src="assets/beverages/soda.jpg" alt="A photo of two glass cups with drinks and 2 cans of Coca-Cola."><p>Soda</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q1a4"><img src="assets/beverages/coffee.jpg" alt="A cup of coffee with latte art."><p>Coffee</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q1a5"><img src="assets/beverages/milk.jpg" alt="A glass pitcher of milk pouring milk into a glass cup"><p>Milk</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q1a6"><img src="assets/beverages/water.jpg" alt="A glass cup of water."><p>Water</p></button>
+      </div>
+
+    </div> 
+    
+    <h2>Pick a meal 🍴</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <button id="q2a1"><img src="assets/meals/hamburger.jpg" alt="A picture of a double hamburger sandwich. From bottom to top, the toppings are bun, lettuce, beef, bun, lettuce, beef, tomato, bun. There is yellow sauce on the side and a bowl of french fries behind the burger."><p>Hamburger</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q2a2"><img src="assets/meals/roasted_turkey.jpg" alt="A picture of a brownish roasted turkey with circular sparkles in the background."><p>Roasted Turkey with Stuffing</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q2a3"><img src="assets/meals/eggs_and_bacon.jpg" alt="A dish of 3 cooked eggs and bacon with avocado slices and bread on the side."><p>Eggs and Bacon</p></button>
+      </div>
+
+      <div class="break"></div>
+      
+      <div class="answer-choice">
+        <button id="q2a4"><img src="assets/meals/pho.jpg" alt="A bowl of Vietnamese pho, a soup dish containing broth, rice noodles, and herbs."><p>Vietnamese Pho</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q2a5"><img src="assets/meals/spaghetti.jpg" alt="A dish of spaghetti noodles with meat, cheese, and tomato sauce."><p>Spaghetti</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q2a6"><img src="assets/meals/beef_stew.jpg" alt="A Bowl of beef stew with carrots, potatoes, and parsley leaves."><p>Beef Stew</p></button>
+      </div>
+
+    </div> 
+    
+    <h2>Pick a fruit 🍐</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <button id="q3a1"><img src="assets/fruits/tangerine.jpg" alt="A picture of a one whole tangering and 5 peeled tangerine slices."><p>Tangerine</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q3a2"><img src="assets/fruits/apple.jpg" alt="A picture of 3 whole red apples and one apple cut in half."><p>Apple</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q3a3"><img src="assets/fruits/blueberries.jpg" alt="Rectangular, paper containers with blueberries inside. "><p>Blueberries</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q3a4"><img src="assets/fruits/mango.jpg" alt="A photo of two dishes, each containing one peeled and diced mango."><p>Mango</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q3a5"><img src="assets/fruits/pear.jpg" alt="A photo of 2 pears on a table."><p>Pear</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q3a6"><img src="assets/fruits/strawberry.jpg" alt="A metal bucket filled with red straweberries."><p>Strawberry</p></button>
+      </div>
+
+    </div>
+
+    <h2>Pick a snack 🍿</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <button id="q4a1"><img src="assets/snacks/chips.jpg" alt="A glass dish of yellow potato chips."><p>Chips</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q4a2"><img src="assets/snacks/yogurt.jpg" alt="2 glass cups of strawberry yogurt with strawberry and blueberry fruits as toppings and decorations."><p>Yogurt</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q4a3"><img src="assets/snacks/popcorn.jpg" alt="A line of containers filled with popcorn. The containers have red and white veritcal stripes on the outside. "><p>Popcorn</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q4a4"><img src="assets/snacks/pretzels.jpg" alt="A photo of a pile of pretzels with one tall stack of pretzels as the focus of the photo."><p>Pretzels</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q4a5"><img src="assets/snacks/fries.jpg" alt="A bowl of yellow french fries."><p>French Fries</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q4a6"><img src="assets/snacks/smores.jpg" alt="A smore/marshmallow sandwich. From top to bottom, the toppings are graham cracker, marshmallow with melted chocolate, graham cracker, graham cracker, marshmallow with melted chocolate, graham cracker."><p>Smores</p></button>
+      </div>
+
+    </div>
+
+    <h2>Pick a dessert 🍨</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <button id="q5a1"><img src="assets/desserts/ice_cream.jpg" alt="2 ice cream (specifically drumsticks) in a glass container. The left ice cream is chocolate and the right ice cream is vanilla."><p>Ice Cream</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q5a2"><img src="assets/desserts/cinammon_rolls.jpg" alt="11 cinammon rolls neatly stacked in a pile on a wooden table."><p>Cinammon Rolls</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q5a3"><img src="assets/desserts/macarons.jpg" alt="A bowl of macarons (small sandwich cookies) in colors brown, pink, and green."><p>Macarons</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q5a4"><img src="assets/desserts/brownie.jpg" alt="A rectangular brownie drizzled in melted chocolate."><p>Brownie</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q5a5"><img src="assets/desserts/pie.jpg" alt="A photo of an apple pie with a lattice (criss-cross) crust."><p>Pie</p></button>
+      </div>
+
+      <div class="answer-choice">
+        <button id="q5a6"><img src="assets/desserts/cupcake.jpg" alt="A photo of 7 cupcakes each with different frosting designs. Colors range in browns, yellows, reds, and blues."><p>Cupcake</p></button>
+      </div>
+
+    </div> 
+
+    <button id="display">Display Results?</button>
+    <h2 id="result">Your favorite season is...</h2>
+    <button class="restart">Restart?</button>
+    
+  </main>
+  </body>
+</html>

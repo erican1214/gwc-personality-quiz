@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+  text-align: center;
+  background-color: #fdd6c9;
+  color: #3D1200;
+  font-family: "Lucidia Console", "Courier New", monospace;
+  margin: 2em;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-position: under;
+}
+
+h2 {
+  font-size: xx-large;
+  margin-top: 2em;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-position: under;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: x-large;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  flex-wrap: wrap;
+  /* uncomment the next line to center the questions and answers */
+  justify-content: center;
+  margin-top: 2em;
+  border: dotted;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  background-color: #3D1200; 
+  padding: 1em;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+  border: dotted;
+}
+
+.answer-choice p {
+  font-size: larger;
+  background-color: #fdd6c9;
+  color: #3D1200;
+  margin: 5px;
+}
+
+/* STYLE BUTTON */
+button { 
+  opacity: 1;
+  padding: 0.5em;
+  font-family: "Lucidia Console", "Courier New", monospace;
+  font-size: larger;
+  background-color: #fdd6c9;
+  border: none;
+}
+
+
+.restart {
+  padding: 1em;
+  background-color: #3D1200;
+  color: #fdd6c9;
+}
+
+#display {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #3D1200;
+  color: #fdd6c9;
+}
+
+#result {
+  margin: 1em;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+button:disabled {
+  opacity: 0.2;
+}
